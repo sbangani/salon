@@ -1,0 +1,80 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin-top: 0vh;
+  width: 95%;
+  font-style: roboto;
+}
+
+.logo{
+font-size: 50px;
+color:#9b6c56;
+margin-left: 8%;
+font-family: roboto;
+
+}
+
+#sidebar{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	left: -25%;
+	top:2vh;
+}
+
+#sidebar li{
+  width: 70%;
+  text-align: center;
+	left: 0;
+	color:  #9b6c56;
+	font-size: 20px;
+	padding: 30px;
+	border-bottom: 2px solid #deb887;
+  border-radius: 0;
+	list-style: none;
+}
+
+.toogle-btn{
+	position: absolute;
+	left: 110%;
+	top: 15px;
+}
+
+.toogle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	margin: 3px;
+	background-color: #9b6c56;
+}
+
+#sidebar.active{
+	left: 0;
+	transition: all 400ms linear;
+}
+
+#sidebar-cont{
+	left: 0;
+}
+
+#pro-img{
+	width: 70%;
+	height: 70;
+}
+
+#header{
+	position: absolute;
+	top:45%;
+	left: 35%;
+}
+
+#header p{
+	font-style: "oxygen";
+	background-color: white;
+	border-radius: 30px;
+	color: orange;
+	font-size: 300%;
+	padding: 5px 20px 5px 20px;
+}

@@ -1,0 +1,103 @@
+header{
+  margin: 0 auto;
+  padding-top: 300px;
+
+}
+
+header h1{
+  margin: 5%;
+  font-size: 4rem;
+  color: #deb887;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+header p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #deb887;
+  margin-bottom: 50px;
+}
+
+h5 {
+    text-align: center;
+}
+/*.dropbtn {
+  font-size: 1.3rem;
+  box-shadow: 0 3px 3px #f9f9f90 rgba(0,0,0,.1);
+  font-weight: 400;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.75rem 2.25rem;
+  border-radius: 2.25rem;
+  display: inline-block;
+  border: solid 3px white;
+}*/
+
+
+/* The dropdown container */
+.dropdown {
+  overflow: hidden;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  margin-left: 45%;
+  font-size: 1.3rem;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+  font-weight: 400;
+  background-color: transparent;
+  color:#deb887;
+  text-decoration: none;
+  padding: 0.75rem 2.25rem;
+  border-radius: 2.25rem;
+  border: solid 3px #deb887;
+  font-style: roboto;
+}
+
+/* Add a red background color to navbar links on hover */
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  margin-left: 20%;
+  margin-top: -650px;
+  color:  #9b6c56;
+  display: none;
+  position: absolute;
+  background-color: #deb887;
+  width: inherit;
+  height: 106%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: .5%;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-size: 1.2rem;
+  color:#ffffcc;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  font-weight: bold;
+  color: #deb887;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:block;
+  width: 60%;
+  opacity: 0.85 ;
+  background-color:#deb887;
+}

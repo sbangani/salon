@@ -1,0 +1,16 @@
+.Message p{
+  border: solid green 2px;
+  color: Green;
+  font-size: 2.5rem;
+  width: 20%;
+  margin-top:10%;
+  margin-left: 40%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+hr{
+  background-color: #9b6c56;
+  border: none;
+  height: 3px;
+}
